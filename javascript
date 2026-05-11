@@ -55,6 +55,39 @@ part of code which is not executed
 # operators 
 used to perform some operation on data
 
-1. Arithematic Operators
+1. Arithematic Operators => mathematical operations
+    - Modulus(%) => gives remainder
+    - Exponentiation(**) => power
+    - Addition(+)
+    - Subtraction(-)
+    - Multiply(*)
+    - Division(/)
 
+2. Unary Operators => requires one operator
+    - Increment(++ OR +1) => a = a++ / a = a+1
+      a++(post => output form next line) , ++a(pre => output form same line)
+    - Decrement(-- OR -1) => a = a-- / a = a-1
+      a--(post) , --a(pre)
 
+3. Assignment Operators => to assign values
+    - (=) 
+    - (+=) => a+=1 OR a = a+1
+    - (-=)
+    - (*=)
+    - (%=)
+    - (**=)
+
+4. Comparison Operators
+    - Equal to(==)
+    - Equal to & type(===)
+    - Not equal to(!=)
+    - Not equal to & type(!==)
+    - (>)
+    - (>=)
+    - (<)
+    - (<=)
+
+5. Logical Operators
+    - AND (&&) => dono condition true ho tb hi true aega ek b false hui to false output aega 
+    - OR (||) => agr ek b value true h toh true output aa jaega 
+    - NOT (!)
