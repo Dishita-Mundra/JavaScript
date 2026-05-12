@@ -19,7 +19,7 @@
 
 
 
-//UNARY OPERATORS
+//UNARY OPERATOR
 
 // let a = 5;
 // let b = 2;
@@ -34,7 +34,7 @@
 
 
 
-//ASSIGNMENT OPERATORS
+//ASSIGNMENT OPERATOR
 
 // let a = 5;
 // let b = 2;
