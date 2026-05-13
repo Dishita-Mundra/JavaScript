@@ -1,4 +1,4 @@
-//ARITHMETIC OPERATOR
+//ARITHMETIC OPERATORS
 
 // let a = 5;
 // let b = 2;
@@ -89,7 +89,7 @@
 
 
 
-//LOGICAL OPERATORS.
+//LOGICAL OPERATORS
 
 let a = 6;
 let b = 5;
