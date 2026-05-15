@@ -48,7 +48,7 @@ generally key:value pair is stored
 # //OPERATORS AND CONDITIONAL STATEMENTS//
 
 # comments
-part of code which is not executed 
+part of code which is not executed .
 (//This is a single line comment
 /* This is a multi=line comment */)
 
