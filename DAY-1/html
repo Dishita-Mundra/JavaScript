@@ -1,0 +1,17 @@
+## Notes
+
+# HTML ATTRIBUTES
+
+1. Heading tag <h1>heading</h1>
+h1 (most important heading)
+h2
+h3
+h4 
+h5
+h6 (least important heading)
+
+
+2. Paragraph tag <p>paragraph</p>
+
+3. Anchor tag - used to add links to page
+<a href="https://google.com">Google</a>
