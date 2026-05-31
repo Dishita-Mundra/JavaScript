@@ -42,3 +42,12 @@ If the Hello.html file is located in another folder (for example, HelloFolder), 
 7. Big & Small tags - Used to display big & small test on your page 
 <big>Big</big>
 <small>Small</small>
+
+
+8. Hr tag - used to display a horizontal ruler, used to separate content
+<hr>
+
+
+9. Subscript & Superscript Tag - used to display a horizontal ruler, used to separate content
+<sub></sub>
+<sup></sup>
