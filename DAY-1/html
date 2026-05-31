@@ -15,3 +15,7 @@ h6 (least important heading)
 
 3. Anchor tag - used to add links to page
 <a href="https://google.com">Google</a>
+=> absolute link - jab dusri website ka link hota h 
+=> relative link - same folder m file ho use dusri file s link kare
+
+<br/> tag is used to give one line space 
