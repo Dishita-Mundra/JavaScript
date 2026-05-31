@@ -37,3 +37,8 @@ If the Hello.html file is located in another folder (for example, HelloFolder), 
 <b>Bold</b>
 <i>Italic</i>
 <u>Underline</u>
+
+
+7. Big & Small tags - Used to display big & small test on your page 
+<big>Big</big>
+<small>Small</small>
