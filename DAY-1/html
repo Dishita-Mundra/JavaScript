@@ -22,11 +22,18 @@ h6 (least important heading)
 
 If the Hello.html file is located in another folder (for example, HelloFolder), we need to include the folder name in the link path, such as ./HelloFolder/Hello.html, to specify where the file is located.
 
-(<br/> tag is used to give one line space)
-
 
 4. Image tag - used to add images to your page
 <img src="/image.png" alt="Random Image">
 
 => src - source - tells image link( can give absolute or relative link)
 => alt = alternative name for image if image is not loaded because of any reason
+
+
+5. <br/> tag - Itis used to give one line space or to get content in next line
+
+
+6. Bold, Italic & Underline Tags - used to highlight text in your page
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
