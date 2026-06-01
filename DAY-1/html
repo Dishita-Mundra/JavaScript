@@ -166,3 +166,10 @@ Action attribute is used to define what action needs to be performed when a form
 <label for "id1">
         <input type="checkbox" value="class X" name="class" id="id1">
 </label>
+
+6. Select
+<select name="city" id="city">
+    <option value="Delhi"> Delhi</option>
+    <option value="Mumbai"> Mumbai</option>
+    <option value="Banglore"> Banglore</option>
+</select>
