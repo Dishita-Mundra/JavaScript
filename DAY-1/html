@@ -86,3 +86,8 @@ using the Right tags
 
 => Aside tag - for content aside main content(ads)
 <aside>
+
+2. Revisiting Anchor tag
+<a href="https://google.com" target="_main">Google</a>
+
+<a href="https://google.com" <img src>="link"></a>
