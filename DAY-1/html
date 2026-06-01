@@ -76,3 +76,13 @@ using the Right tags
 <main>
 <footer>
 
+1. Inside Main Tag
+
+=> Section tag - for a section on your page
+<section>
+
+=> Article tag - for an article on your page
+<article>
+
+=> Aside tag - for content aside main content(ads)
+<aside>
