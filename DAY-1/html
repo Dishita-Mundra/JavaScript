@@ -1,4 +1,6 @@
-## Notes
+### NOTES
+
+
 
 # HTML ATTRIBUTES
 
@@ -58,3 +60,19 @@ If the Hello.html file is located in another folder (for example, HelloFolder), 
     is a sample
     text.
 </pre>
+
+
+
+
+
+
+# LAYOUTS
+
+=> Page Layout Techniques
+using Semantic tags for layout (readable, Using more semantic HTML tags can improve SEO because they make it easier for search engines to understand the content and structure of the website, good user experience)
+using the Right tags
+
+<header>
+<main>
+<footer>
+
