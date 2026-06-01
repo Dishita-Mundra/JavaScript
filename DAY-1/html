@@ -150,3 +150,19 @@ Action attribute is used to define what action needs to be performed when a form
 
 2. Form element : Input
 <input type="text" placeholder="Enter Name">
+
+
+3. Label 
+<label for="id1">
+        <input type="radio" value="classX" name="class" id="id1">
+</label>
+
+4. Class & ID
+<div id="id1" class="group1"></div>
+<div id="id2" class="group2"></div>
+
+5. Checkbox
+
+<label for "id1">
+        <input type="checkbox" value="class X" name="class" id="id1">
+</label>
