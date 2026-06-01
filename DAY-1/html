@@ -97,3 +97,21 @@ Block Element (takes full width)
 
 4. Span Tag - span is also a conatiner used for other HTML elements.
 Inline Element (takes width as per size)
+
+
+
+
+# LIST IN HTML 
+used to represent real life list data
+1. unordered list - butllet form
+<ul>
+    <li>Apple</li>
+    <li>Mango</li>
+</ul>
+
+
+2. ordered list - any order like 1,2,3,4
+<ol>
+    <li>Apple</li>
+    <li>Mango</li>
+</ol>
