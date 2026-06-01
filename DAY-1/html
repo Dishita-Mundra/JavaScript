@@ -51,3 +51,10 @@ If the Hello.html file is located in another folder (for example, HelloFolder), 
 9. Subscript & Superscript Tag - used to display a horizontal ruler, used to separate content
 <sub></sub>
 <sup></sup>
+
+
+10. Pre tag - used to display text as it is( without ignoring spaces and next line)
+<pre>This 
+    is a sample
+    text.
+</pre>
