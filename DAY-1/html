@@ -123,3 +123,6 @@ Tables are used to represent real life table data.
 <tr> used to display table row 
 <td> used to display table data
 <th> used to display table header
+
+1. Caption in Table - ued to store information about table
+<caption> </caption>
