@@ -175,3 +175,13 @@ Action attribute is used to define what action needs to be performed when a form
 </select>
 
 7. iframe tag - website inside website
+
+8. Video tag 
+<video src="myVid.mp4">My video</video>
+
+Attributes
+- controls
+- height
+- width
+- loop
+- autoplay
