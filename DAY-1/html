@@ -94,3 +94,6 @@ using the Right tags
 
 3. Div Tag - non semantic tag - Div is a container used for other HTML elements
 Block Element (takes full width)
+
+4. Span Tag - span is also a conatiner used for other HTML elements.
+Inline Element (takes width as per size)
