@@ -91,3 +91,6 @@ using the Right tags
 <a href="https://google.com" target="_main">Google</a>
 
 <a href="https://google.com" <img src>="link"></a>
+
+3. Div Tag - non semantic tag - Div is a container used for other HTML elements
+Block Element (takes full width)
