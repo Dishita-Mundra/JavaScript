@@ -2,11 +2,35 @@ p{
     text-align: center;
 }
 
-h1{
+/* h1{
     text-align: center;
     text-decoration: blue underline;
-}
+} */
 
 a{
     text-decoration: none;
+}
+
+/* #head1{
+    font-weight: 100;
+}
+
+#head2{
+    font-weight: 200;
+}
+
+#head3{
+    font-weight: 500;
+}
+
+#head4{
+    font-weight: 900;
+} */
+
+#one{
+    font-family: arial;
+}
+
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
