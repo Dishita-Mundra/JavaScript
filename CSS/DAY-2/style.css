@@ -1,17 +1,17 @@
-p{
+/* p{
     text-align: center;
 }
 
-/* h1{
+h1{
     text-align: center;
     text-decoration: blue underline;
-} */
+}
 
 a{
     text-decoration: none;
 }
 
-/* #head1{
+#head1{
     font-weight: 100;
 }
 
@@ -25,7 +25,7 @@ a{
 
 #head4{
     font-weight: 900;
-} */
+}
 
 #one{
     font-family: arial;
@@ -33,4 +33,18 @@ a{
 
 #two{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+/* 2 */
+
+#one{
+    font-size: 25px;
+    line-height: normal;
+    text-transform: none;
+}
+
+#three{
+    font-size: 10px;
 }
