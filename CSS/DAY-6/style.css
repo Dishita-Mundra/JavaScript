@@ -1,4 +1,4 @@
-div{
+/* div{
     height: 100px;
     width: 100px;
     background-color: aquamarine;
@@ -6,18 +6,92 @@ div{
     position: absolute;
     top: 100px;
     left: 100px;
-    /* transition: all 2s ease-in 1s; */
-    /* transform: rotate(360deg); */
-    /* rotate: z 90deg; */
-    transform: scale(1,2);
+    transition: all 2s ease-in 1s; 
+    transform: rotate(360deg);
+    rotate: z 90deg;
+    transition: all 2s ease-in;
 }
 
 div:hover{
     background-color: red;
     color: white;
     font-size: 20px;
+    transform: rotate(180deg);
+    transform: skew(45deg);
 }
 
 div:active{
     background-color: pink;
+}   */
+
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px; */
+    /* animation-name: colorAnimate;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation: colorAnimate 4s ease-in 1s infinite normal;
+} */
+
+/* @keyframes colorAnimate {
+    from {
+        left: 0px;
+        background-color: aquamarine;
+    }
+
+    to {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+} */
+
+
+/* @keyframes colorAnimate {
+    0% {
+        left: 0px;
+        background-color: aquamarine;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+} */
+
+
+
+
+/* Practice */
+
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #FFE66D;
+    border-top: 20px solid #4ECDC4;
+    animation: spinAnimate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
