@@ -61,15 +61,20 @@
 
 
 // Comparison Operators
-let a = 5;
-let b = 2;
-let c = 5;
-let d = "5";
+// let a = 5;
+// let b = 2;
+// let c = 5;
+// let d = "5";
 
-console.log("5 == 2: ", a == b)
+// console.log("5 == 2: ", a == b)
 
-console.log("5 != 2: ", a != b)
+// console.log("5 != 2: ", a != b)
 
-console.log("5 == 5: ", a == c)
+// console.log("5 == 5: ", a == c)
 
-console.log("5 != 5: ", a != c)
+// console.log("5 != 5: ", a != c)
+
+// console.log("5 === '5': ", a === d)
+
+// console.log("5 == '5': ", a == d)
+
