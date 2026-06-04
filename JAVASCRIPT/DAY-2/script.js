@@ -64,7 +64,7 @@
 let a = 5;
 let b = 2;
 let c = 5;
-let d = 
+let d = "5";
 
 console.log("5 == 2: ", a == b)
 
