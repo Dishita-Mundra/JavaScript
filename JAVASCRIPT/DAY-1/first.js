@@ -43,3 +43,34 @@
 // }
 
 
+// let age = 24;
+// let price = 100.50;
+
+// console.log(typeof(age))
+// console.log(typeof(price))
+
+
+// let fullName = "dishita mundra"
+
+// console.log(typeof(fullName))
+
+
+// let isFollow = true;
+
+// console.log(typeof(isFollow))
+
+
+// let x;
+
+// console.log(typeof(x))
+
+
+// let y = null;
+
+// console.log(typeof(y))
+
+
+let x = BigInt("123")
+
+console.log(x)
+console.log(typeof(x))
