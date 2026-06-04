@@ -10,7 +10,7 @@
 // price = 123.45;
 // radius = 14;
 // x = null;
-// y = undefined 
+// y = undefined
 // isFollow = false
 
 // age = "twenty four"
@@ -22,4 +22,24 @@
 // console.log(isFollow)
 // console.log(x)
 // console.log(y)
+
+
+// const PI = 3.14;
+
+// console.log(PI)
+
+// let a;
+// a = 10;
+
+// console.log(a)
+
+// {
+//     let a = 5;
+//     console.log(a);
+// }
+// {
+//     let a = 10;
+//     console.log(a);
+// }
+
 
