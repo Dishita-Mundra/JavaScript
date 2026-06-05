@@ -78,3 +78,18 @@
 
 // console.log("5 == '5': ", a == d)
 
+
+
+// Logical Operators
+let a = 6;
+let b = 5;
+
+let cond1 = a > b;
+let cond2 = a === 6;
+let cond3 = a === 5;
+let cond4 = b === 5;
+
+console.log("cond1 && cond2 = ", cond1 && cond2);
+console.log("cond1 && cond3 = ", cond1 && cond3);
+console.log("cond2 && cond4 = ", a ===6 && b ===5);
+
