@@ -1,4 +1,7 @@
-//for loop
+// LOOPS
+
+
+// 1.for loop
 
 // for (let i = 1; i <= 5; i++) {
 //     console.log("dishita");
@@ -20,7 +23,7 @@
 
 
 
-// while loop
+// 2.while loop
 
 // let i = 1;
 // while (i <= 5) {
@@ -30,7 +33,7 @@
 
 
 
-// do-while loop
+// 3.do-while loop
 
 // let i = 1;
 // do {
@@ -40,7 +43,7 @@
 
 
 
-//for-of loop
+// 4.for-of loop
 
 // let str = "Dishita";
 
@@ -54,7 +57,7 @@
 
 
 
-//for-in loop
+// 5.for-in loop
 
 // let student = {
 //     name: "Rahul Kumar",
@@ -92,3 +95,27 @@
 
 // console.log("Congratulations, you entered the right number");
 
+
+
+
+
+// STRINGS
+
+// let str = "Dishita";
+// let str2 = "Mundra";
+
+// console.log(str);
+// console.log(str2);
+
+// console.log(str.length);
+// console.log(str2.length);
+
+// console.log(str[0]);
+// console.log(str2[5]);
+
+
+
+// TEMPLATE LITERALS
+
+let specialString = `This is a template literal`;
+console.log(specialString);
