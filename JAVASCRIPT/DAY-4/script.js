@@ -124,3 +124,24 @@
 // console.log(marvelHeroes);
 
 
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr.Strange"];
+
+// console.log(marvelHeroes);
+
+// console.log(marvelHeroes.slice(1,3));
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// arr.splice(2, 2, 8, 9);
+
+//Add Element
+// arr.splice(7, 0, 8);
+
+//Delete Element
+// arr.splice(6, 1);
+
+//Replace Element
+// arr.splice(3, 1, 8);
+
+// console.log(arr);
