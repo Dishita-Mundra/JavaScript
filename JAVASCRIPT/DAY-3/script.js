@@ -142,8 +142,40 @@
 
 // ESCAPE CHARACTERS
 
-// console.log("Dishita\nMundra")
-// console.log("Dishita\tMundra")
+// console.log("Dishita\nMundra");
+// console.log("Dishita\tMundra");
 
 
 
+// STRING METHODS
+
+// let str = "Dishita Mundra";
+// let str1 = "        Dishita Mundra         ";
+
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// console.log(str1);
+// console.log(str1.trim());
+
+// let str = "0123456789";
+// let str1 = "345";
+
+// console.log(str.slice(2, 9));
+
+// console.log(str1.concat(str));
+
+// console.log(str.replace("5", "3"));
+
+// console.log(str.charAt(5));
+
+
+
+
+// PRACTICE
+
+// let fullName = prompt("Enter your full name without spaces");
+
+// let username = "@" + fullName + fullName.length;
+
+// console.log(username);
