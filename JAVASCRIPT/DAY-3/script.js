@@ -115,7 +115,35 @@
 
 
 
+
 // TEMPLATE LITERALS
 
-let specialString = `This is a template literal`;
-console.log(specialString);
+// let specialString = `This is a template literal`;
+
+// console.log(specialString);
+// console.log(typeof (specialString));
+
+// let obj = {
+//     item: "pen",
+//     price: 10,
+// };
+
+// let output=`The cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+// console.log("The cost of", obj.item, "is", obj.price, "rupees");
+
+
+// let specialString = `This is a template literal ${1+2+3}`;
+
+// console.log(specialString);
+
+
+
+// ESCAPE CHARACTERS
+
+// console.log("Dishita\nMundra")
+// console.log("Dishita\tMundra")
+
+
+
