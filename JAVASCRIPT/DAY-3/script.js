@@ -42,12 +42,53 @@
 
 //for-of loop
 
-let str = "Dishita";
+// let str = "Dishita";
 
-let size = 0;
-for (let i of str) {
-    console.log("i=", i);
-    size++;
-}
+// let size = 0;
+// for (let i of str) {
+//     console.log("i=", i);
+//     size++;
+// }
 
-console.log("string size =", size);
+// console.log("string size =", size);
+
+
+
+//for-in loop
+
+// let student = {
+//     name: "Rahul Kumar",
+//     age: 20,
+//     cgpa: 7.5,
+//     isPass: true
+// };
+
+// for (let key in student) {
+//     console.log("key=", key, "value=", student[key]);
+// }
+
+
+
+// PRACTICE
+
+// Q1
+
+// for (let num = 0; num <= 100; num++) {
+//     if (num % 2 === 0) {
+//         console.log("num=", num);
+//     }
+// }
+
+
+// Q2
+
+// let gameNum = 146;
+
+// let userNum = prompt("Guess the game number");
+
+// while (userNum != gameNum) {
+//     userNum = prompt("You entered wrong number. Guess again");
+// }
+
+// console.log("Congratulations, you entered the right number");
+
