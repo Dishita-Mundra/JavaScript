@@ -179,3 +179,32 @@
 // let age = 18;
 
 // console.log(age >=18 ? "adult" : "not adult");
+
+
+// PRACTICE
+
+// let n = prompt("Enter a number:")
+
+// if (n % 5 === 0) {
+//     console.log(n , " is a multiple of 5")
+// } else {
+//     console.log(n , "is not a multiple of 5")
+// }
+
+
+// let marks = prompt("Enter your marks(0-100)"); 
+// let grade;
+
+// if (marks >= 90 && marks <= 100) {
+//     grade = "A";
+// } else if (marks >= 70 && marks <= 89) {
+//     grade = "B";
+// } else if (marks >= 60 && marks <= 69) {
+//     grade = "C";
+// } else if (marks >= 50 && marks < 59) {
+//     grade = "D";
+// } else if (marks >= 0 && marks <= 49) {
+//     grade = "F";
+// }
+
+// console.log("according to your marks, your grade is : ",grade);
