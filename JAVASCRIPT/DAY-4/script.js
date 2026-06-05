@@ -48,6 +48,7 @@
 // }
 
 
+
 // PRACTICE
 
 // Q1           
@@ -65,7 +66,7 @@
 
 
 // Q2
-let items = [250, 645, 300, 900, 50];
+// let items = [250, 645, 300, 900, 50];
 
 // let i = 0;
 
@@ -85,3 +86,41 @@ let items = [250, 645, 300, 900, 50];
 // }
 
 // console.log(items);
+
+
+// ARRAY METHODS
+
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+
+// let marks = [97, 86, 54, 36];
+
+// foodItems.push("chips", "burger", "panner");
+
+// console.log(foodItems.pop());
+
+// console.log(foodItems);
+
+// console.log(foodItems);
+// console.log(foodItems.toString());
+
+// console.log(marks);
+// console.log(marks.toString()); 
+
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let dcHeroes = ["superman", "batman"];
+// let indianHeroes=["shaktiman","krish"];
+
+// let heroes = marvelHeroes.concat(dcHeroes,indianHeroes);
+
+// console.log(heroes);
+
+// marvelHeroes.unshift("antman");
+// console.log(marvelHeroes);
+
+// let val = marvelHeroes.shift()
+// console.log("deleted",val);
+
+// console.log(marvelHeroes);
+
+
