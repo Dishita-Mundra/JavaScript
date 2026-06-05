@@ -81,15 +81,77 @@
 
 
 // Logical Operators
-let a = 6;
-let b = 5;
+// let a = 6;
+// let b = 5;
 
-let cond1 = a > b;
-let cond2 = a === 6;
-let cond3 = a === 5;
-let cond4 = b === 5;
+// let cond1 = a > b;
+// let cond2 = a === 6;
+// let cond3 = a === 5;
+// let cond4 = b === 5;
 
-console.log("cond1 && cond2 = ", cond1 && cond2);
-console.log("cond1 && cond3 = ", cond1 && cond3);
-console.log("cond2 && cond4 = ", a ===6 && b ===5);
+// console.log("cond1 && cond2 = ", cond1 && cond2);
+// console.log("cond1 && cond3 = ", cond1 && cond3);
+// console.log("cond2 && cond4 = ", a ===6 && b ===5);
 
+// console.log("a < b || a === 6 = ", a < b || a === 6);
+
+// console.log("!(6 < 5) = ", !(a < b));
+
+
+
+
+// CONDITIONAL STATEMENTS
+
+// let age = 18;
+
+// if (age >= 18) {
+//     console.log("you can vote");
+// }
+
+// if (age < 18) {
+//     console.log("you cannot vote")
+// }
+
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black"
+// }
+
+// if (mode === "light") {
+//     color = "white"
+// }
+
+// console.log(color);
+
+
+// let mode = "light";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black"
+// } else {
+//     color = "white";
+// }
+
+// console.log(color);
+
+
+// let age = 25;
+
+// if (age >= 18) {
+//     console.log("can vote")
+// } else {
+//     console.log("cannot vote")
+// }
+
+
+// let n = 76;
+
+// if (n % 2 === 0) {
+//     console.log("even")
+// } else {
+//     console.log("odd")
+// }
