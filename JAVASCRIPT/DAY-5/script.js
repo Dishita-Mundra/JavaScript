@@ -151,3 +151,17 @@
 // });
 
 // console.log(newArr);
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7,];
+
+// let evenArr = arr.filter((val) => {
+//     return val % 2 === 0;
+// });
+
+// let oddArr = arr.filter((val) => {
+//     return val % 2 !== 0;
+// })
+
+// console.log(`even array is ${evenArr}`);
+// console.log(`odd  array is ${oddArr}`);
