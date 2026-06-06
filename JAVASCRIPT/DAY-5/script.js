@@ -103,3 +103,18 @@
 
 // console.log(countVow("dishita"));
 
+
+
+// forEach Loop in Arrays
+
+// let arr = ["pune", "delhi", "mumbai"];
+
+// arr.forEach(function printVal(val){  // value at each index
+//     console.log(val);
+// });
+
+// arr.forEach((val, idx, arr) => {
+//     console.log(val.toUpperCase(), idx, arr);
+// });
+
+
