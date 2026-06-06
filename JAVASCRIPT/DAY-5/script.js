@@ -165,3 +165,60 @@
 
 // console.log(`even array is ${evenArr}`);
 // console.log(`odd  array is ${oddArr}`);
+
+
+// let arr = [1, 2, 3, 4];
+
+// const output = arr.reduce((res, curr) => {
+//     return res + curr;
+// });
+
+// console.log(output);
+
+
+// let arr = [1, 2, 3, 4];
+
+// const output = arr.reduce((prev, curr) => {
+//     return prev > curr ? prev : curr;
+// });
+
+// console.log(output);
+
+
+
+// PRACTICE
+
+// Q1
+
+// let marks = [97, 64, 32, 49, 99, 96, 86];
+
+// let toppers = marks.filter((val) => {
+//     return val > 90;
+// })
+
+// console.log(toppers);
+
+
+// Q2
+
+let n = prompt("Enter a number");
+
+let arr = [];
+
+for (let i = 1; i <= n; i++) {
+    arr[i - 1] = i;
+}
+
+console.log(arr);
+
+const sum = arr.reduce((prev, curr) => {
+    return prev + curr;
+});
+
+console.log(sum);
+
+const product = arr.reduce((prev, curr) => {
+    return prev * curr;
+});
+
+console.log(product);
