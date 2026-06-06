@@ -32,7 +32,7 @@
 // }
 
 // let val = sum(134, 6);
-// console.log(val); 
+// console.log(val);
 
 
 // Sum Function
@@ -118,3 +118,23 @@
 // });
 
 
+
+
+// PRACTICE
+
+// 1st Method
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let calcSquare = (val) => {
+//     console.log(val ** 2);
+// }
+
+// arr.forEach(calcSquare);
+
+
+// 2nd Method
+
+// arr.forEach((val) => {
+//     console.log(val ** 2);
+// });
