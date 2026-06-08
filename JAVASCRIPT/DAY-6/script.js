@@ -48,12 +48,18 @@
 
 // 2.
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
 
-console.log(div.innerText);
+// console.log(div.innerText);
 
-console.log(div.innerHTML);
+// console.log(div.innerHTML);
+
+// let heading = document.querySelector("h1");
+// console.dir(heading);
+
+// CODE TO WRITE ON CONSOLE WINDOW
+
 
 // writing this on console window will change the inner text of div into abcd
 // div.innerText = "abcd"; 
