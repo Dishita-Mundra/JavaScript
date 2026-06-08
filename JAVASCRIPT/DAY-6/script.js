@@ -6,9 +6,9 @@
 // console.log(header);
 // console.dir(header);
 
-let button = document.getElementById("myId");
-console.dir(button);
+// let button = document.getElementById("myId");
+// console.dir(button);
 
-let headings = document.getElementsByClassName("myClass");
-console.log(headings);
-console.dir(headings);
+// let headings = document.getElementsByClassName("myClass");
+// console.log(headings);
+// console.dir(headings);
