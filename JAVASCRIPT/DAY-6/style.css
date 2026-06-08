@@ -1,15 +1,15 @@
 /* 1. */
 
-body {
+/* body {
     background-color: pink;
-}
+} */
 
 /* #heading1 {
     color: rgb(26, 26, 142);
     background-color: yellow;
 } */
 
-.head {
+/* .head {
     color: rgb(26, 26, 142);
     background-color: yellow;
 }
@@ -17,7 +17,7 @@ body {
 button {
     color: white;
     background-color: blue;
-} 
+}  */
 
 
 
@@ -31,3 +31,18 @@ button {
     color: white;
     border: 1px solid black;
 } */
+
+
+
+
+/* PRACTICE */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+

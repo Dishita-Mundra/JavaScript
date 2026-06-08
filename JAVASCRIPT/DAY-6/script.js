@@ -66,3 +66,19 @@
 
 // we can also add any tag using innerHTML
 // div.innerHTML = "<div> inner div </div>"
+
+
+
+
+// PRACTICE
+
+// let h2 = document.querySelector("h2");
+// console.dir(h2);
+
+// console.log(h2.innerText);
+
+// h2.innerText = h2.innerText + " from Apna College";    //concatenate
+
+let divs = document.querySelector(".box");
+console.dir(divs);
+
