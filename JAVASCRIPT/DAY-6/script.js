@@ -55,4 +55,8 @@ console.log(div.innerText);
 
 console.log(div.innerHTML);
 
-// div.innerText = "abcd";    // writing this on console window will change the inner text of div into abcd
+// writing this on console window will change the inner text of div into abcd
+// div.innerText = "abcd"; 
+
+// we can also add any tag using innerHTML
+// div.innerHTML = "<div> inner div </div>"
