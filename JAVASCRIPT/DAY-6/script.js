@@ -44,7 +44,7 @@
 // let allEl = document.querySelectorAll("#myId");   // all elements
 // console.dir(allEl);
 
-
+// console.dir(document.body.firstChild);
 
 // 2.
 
