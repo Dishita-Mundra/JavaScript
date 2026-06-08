@@ -79,8 +79,8 @@
 
 // 2.
 
-let para = document.querySelector(".para");
-console.log(para);
+// let para = document.querySelector(".para");
+// console.log(para);
 
 
 // para.setAttribute("class", "newClass");    // not a good method to add new class because this completely vanish the existing class
