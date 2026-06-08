@@ -1,3 +1,5 @@
+/* 1. */
+
 body {
     background-color: pink;
 }
@@ -15,4 +17,17 @@ body {
 button {
     color: white;
     background-color: blue;
-}
+} 
+
+
+
+
+/* 2. */
+
+/* #box{
+    height: 250px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+} */
