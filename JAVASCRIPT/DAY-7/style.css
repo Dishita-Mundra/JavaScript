@@ -1,7 +1,19 @@
-#box{
+/* #box{
     height: 200px;
     width: 100px;
     background-color: dodgerblue;
     color: white;
     border: 1px solid black;
+} */
+
+
+
+/* PRACTICE */
+
+.para {
+    color: red;
+}
+
+.newClass {
+    background-color: pink;
 }
