@@ -2,7 +2,12 @@ body {
     background-color: pink;
 }
 
-h1 {
+/* #heading1 {
+    color: rgb(26, 26, 142);
+    background-color: yellow;
+} */
+
+.head {
     color: rgb(26, 26, 142);
     background-color: yellow;
 }
