@@ -201,24 +201,24 @@
 
 // Q2
 
-let n = prompt("Enter a number");
+// let n = prompt("Enter a number");
 
-let arr = [];
+// let arr = [];
 
-for (let i = 1; i <= n; i++) {
-    arr[i - 1] = i;
-}
+// for (let i = 1; i <= n; i++) {
+//     arr[i - 1] = i;
+// }
 
-console.log(arr);
+// console.log(arr);
 
-const sum = arr.reduce((prev, curr) => {
-    return prev + curr;
-});
+// const sum = arr.reduce((prev, curr) => {
+//     return prev + curr;
+// });
 
-console.log(sum);
+// console.log(sum);
 
-const product = arr.reduce((prev, curr) => {
-    return prev * curr;
-});
+// const product = arr.reduce((prev, curr) => {
+//     return prev * curr;
+// });
 
-console.log(product);
+// console.log(product);
