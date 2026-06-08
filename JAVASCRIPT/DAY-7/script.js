@@ -28,3 +28,20 @@
 
 
 
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me";
+// console.log(newBtn);
+
+// let div = document.querySelector("div");
+
+// div.append(newBtn);
+
+// div.prepend(newBtn);
+
+// div.before(newBtn);
+
+// div.after(newBtn);
+
+
+// let p = document.querySelector("p");
+// p.after(newBtn);
