@@ -1,11 +1,16 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.onclick = () => {
-    console.log("btn1 was clicked");
-    let a = 25;
-    a++;
-    console.log(a);
-};
+btn1.onclick = (e) => {
+    console.log(e);
+    console.log(e.type);
+}
+
+// btn1.onclick = () => {
+//     console.log("btn1 was clicked");
+//     let a = 25;
+//     a++;
+//     console.log(a);
+// };
 
 let div = document.querySelector("div");
 
