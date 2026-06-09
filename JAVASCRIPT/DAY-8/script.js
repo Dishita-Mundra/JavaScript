@@ -1,9 +1,24 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.onclick = (e) => {
+btn1.addEventListener("click", (e) =>{
+    console.log("btn1 was clicked"); 
     console.log(e);
-    console.log(e.type);
-}
+    console.log(e.type); 
+});
+
+btn1.addEventListener("click", () =>{
+    console.log("btn1 was clicked - handler2");
+});
+
+
+// btn1.onclick = (e) => {
+//     console.log(e);
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clientX);
+//     console.log(e.clientY);
+// }
+
 
 // btn1.onclick = () => {
 //     console.log("btn1 was clicked");
@@ -12,8 +27,19 @@ btn1.onclick = (e) => {
 //     console.log(a);
 // };
 
+
+
 let div = document.querySelector("div");
 
-div.onmouseover = () => {
-    console.log("you are inside div");
-};
+// div.onmouseover = (e) => {
+//     console.log(e);
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clientX);
+//     console.log(e.clientY);
+// }
+
+
+// div.onmouseover = () => {
+//     console.log("you are inside div");
+// };
