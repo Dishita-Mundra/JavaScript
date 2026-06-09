@@ -1,15 +1,26 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.addEventListener("click", (e) =>{
-    console.log("btn1 was clicked"); 
-    console.log(e);
-    console.log(e.type); 
+// btn1.addEventListener("click", (e) =>{
+//     console.log("btn1 was clicked"); 
+//     console.log(e);
+//     console.log(e.type); 
+// });
+
+btn1.addEventListener("click", () =>{
+    console.log("btn1 was clicked - handler1");
 });
 
 btn1.addEventListener("click", () =>{
     console.log("btn1 was clicked - handler2");
 });
 
+btn1.addEventListener("click", () =>{
+    console.log("btn1 was clicked - handler3");
+});
+
+btn1.addEventListener("click", () =>{
+    console.log("btn1 was clicked - handler4");
+});
 
 // btn1.onclick = (e) => {
 //     console.log(e);
@@ -29,7 +40,7 @@ btn1.addEventListener("click", () =>{
 
 
 
-let div = document.querySelector("div");
+// let div = document.querySelector("div");
 
 // div.onmouseover = (e) => {
 //     console.log(e);
