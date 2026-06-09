@@ -1,4 +1,4 @@
-let btn1 = document.querySelector("#btn1");
+// let btn1 = document.querySelector("#btn1");
 
 // btn1.addEventListener("click", (e) =>{
 //     console.log("btn1 was clicked"); 
@@ -6,21 +6,25 @@ let btn1 = document.querySelector("#btn1");
 //     console.log(e.type); 
 // });
 
-btn1.addEventListener("click", () =>{
-    console.log("btn1 was clicked - handler1");
-});
+// btn1.addEventListener("click", () =>{
+//     console.log("btn1 was clicked - handler1");
+// });
 
-btn1.addEventListener("click", () =>{
-    console.log("btn1 was clicked - handler2");
-});
+// btn1.addEventListener("click", () =>{
+//     console.log("btn1 was clicked - handler2");
+// });
 
-btn1.addEventListener("click", () =>{
-    console.log("btn1 was clicked - handler3");
-});
+// const handler3 = () =>{
+//     console.log("btn1 was clicked - handler3");
+// };
 
-btn1.addEventListener("click", () =>{
-    console.log("btn1 was clicked - handler4");
-});
+// btn1.addEventListener("click", handler3);
+
+// btn1.addEventListener("click", () =>{
+//     console.log("btn1 was clicked - handler4");
+// });
+
+// btn1.removeEventListener("click", handler3);
 
 // btn1.onclick = (e) => {
 //     console.log(e);
@@ -54,3 +58,26 @@ btn1.addEventListener("click", () =>{
 // div.onmouseover = () => {
 //     console.log("you are inside div");
 // };
+
+
+
+
+
+// PRACTICE
+
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
+let currMode = "light";
+
+modeBtn.addEventListener("click", () => {
+    if(currMode === "light") {
+        currMode = "dark";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    } else {
+        currMode = "light";
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+    console.log(currMode);
+});
