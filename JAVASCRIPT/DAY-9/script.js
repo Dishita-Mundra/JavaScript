@@ -110,3 +110,62 @@
 // }
 
 // let dishObj2 = new Doctor();
+
+
+
+
+// class Person {
+//     constructor() {
+//         console.log("enter parent constructor");
+//         this.species = "homo sapiens"
+//     }
+
+//     eat() {
+//         console.log("eat"); 
+//     }
+// }
+
+// class Engineer extends Person{
+//     constructor(branch) {
+//         console.log("enter child constructor");
+//         super();   // to invoke parent class constructor
+//         this.branch = branch;
+//         console.log("exit child constructor");
+//     }
+
+//     work() {
+//         console.log("solve problems, build something");
+//     }
+// }
+
+// let engObj = new Engineer("chemical engg");
+
+// console.log(engObj);
+
+
+
+class Person {
+    constructor(name) {
+        this.species = "homo sapiens"
+        this.name = name;
+    }
+
+    eat() {
+        console.log("eat"); 
+    }
+}
+
+class Engineer extends Person{
+    constructor(name) {
+        console.log("enter child constructor");
+        super();   // to invoke parent class constructor
+    }
+
+    work() {
+        console.log("solve problems, build something");
+    }
+}
+
+let engObj = new Engineer("dishita");
+
+console.log(engObj);
