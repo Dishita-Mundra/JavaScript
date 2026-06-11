@@ -170,3 +170,64 @@
 
 // console.log(engObj);
 // console.log(engObj.work());
+
+
+
+
+// PRACTICE
+
+// let DATA = "secret information";
+
+// class User {
+//     constructor(name, email){
+//         this.name = name;
+//         this.email = email;
+//     }
+
+//     viewData() {
+//         console.log("website data= ", DATA);
+//     }
+// }
+
+// console.log(student1);
+// console.log(student2);
+
+// class Admin extends User() {
+//     constructor(name, email) {
+//         super(name, email);
+//     }
+//     editData() {
+//         DATA = "some new value";
+//     }
+// }
+
+// let student1 = new User("dishita", "abc@gmail.com");
+// let student2 = new User("swati", "xyz@email.com");
+
+// let teacher1 = new User("dean","dean@college.com")
+
+// let admin1 = new Admin("admin", "admin@college.com");
+
+
+
+
+// ERROR HANDLING
+
+let a = 5;
+let b = 10;
+
+console.log("a= ", a);
+console.log("b= ", b);
+console.log("a + b ", a + b);
+
+try{
+    console.log("a + b ", a + c);
+} catch(err) {
+    console.log(err);
+}
+
+console.log("a + b ", a + b);
+console.log("a + b ", a + b);
+console.log("a + b ", a + b);
+console.log("a + b ", a + b);
+console.log("a + b ", a + b);
