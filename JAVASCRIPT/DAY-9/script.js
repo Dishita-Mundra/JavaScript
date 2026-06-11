@@ -60,3 +60,17 @@
 
 
 // INHERITANCE
+
+// class Parent {
+//     hello () {
+//         console.log("hello");
+//     }
+// }
+
+// class Child extends Parent {}
+
+// let obj = new Child();
+
+// console.log(obj.hello());
+// console.log(obj.hi());   // error because this function does not exist 
+
