@@ -75,30 +75,38 @@
 // console.log(obj.hi());   // error because this function does not exist 
 
 
-class Person {
-    eat() {
-        console.log("eat"); 
-    }
+// class Person {
+//     constructor() {
+//         this.species = "homo sapiens"
+//     }
 
-    sleep() {
-        console.log("sleep"); 
-    }
+//     eat() {
+//         console.log("eat"); 
+//     }
 
-    work() {
-        console.log("do nothing");   
-    }
-}
+//     sleep() {
+//         console.log("sleep"); 
+//     }
 
-class Engineer extends Person{
-    work() {
-        console.log("solve problems, build something");
-    }
-}
+//     work() {
+//         console.log("do nothing");   
+//     }
+// }
 
-class Doctor extends Person{
-    work() {
-        console.log("treat patients");
-    }
-}
+// let dishObj = new Person();
 
-let dishObj = new Engineer();
+// class Engineer extends Person{
+//     work() {
+//         console.log("solve problems, build something");
+//     }
+// }
+
+// let dishObj1 = new Engineer();
+
+// class Doctor extends Person{
+//     work() {
+//         console.log("treat patients");
+//     }
+// }
+
+// let dishObj2 = new Doctor();
