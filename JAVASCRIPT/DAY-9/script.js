@@ -35,19 +35,28 @@
 
 // CLASSES
 
-class ToyotaCar {
-    start() {
-        console.log("start");
-    }
+// class ToyotaCar {
+//     constructor(){
+//         console.log("creating new object");
+//     }
 
-    stop() {
-        console.log("stop");
-    }
+//     start() {
+//         console.log("start");
+//     }
 
-    setBrand(brand) {
-        this.brandName = brand;
-    }
-}
+//     stop() {
+//         console.log("stop");
+//     }
 
-let fortuner = new ToyotaCar();
-fortuner.setBrand()
+//     setBrand(brand) {
+//         this.brandName = brand;
+//     }
+// }
+
+// let fortuner = new ToyotaCar();
+// fortuner.setBrand("fortuner");
+
+
+
+
+// INHERITANCE
