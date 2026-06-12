@@ -39,7 +39,7 @@
 // nesting
 
 // let age = 19;
-// if (age>=18) {
+// if (age >= 18) {
 //     if (age >=60) {
 //         console.log("senior");        
 //     } else {
@@ -48,3 +48,12 @@
 // } else {
 //     console.log("child");
 // }
+
+
+for (let i = 0; i < 5; i++) {
+    let str = "";
+    for (let j = 0; j < 5; j++) {
+        str = str + j;
+    }
+    console.log(str);
+}
