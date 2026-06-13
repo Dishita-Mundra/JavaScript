@@ -61,3 +61,10 @@
 
 
 
+// function getData(dataId) {
+//     setTimeout(() => {
+//         console.log("data", dataId);
+//     }, 1000);
+// }
+
+// console.log(getData(1));
