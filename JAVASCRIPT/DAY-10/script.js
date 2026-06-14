@@ -90,3 +90,18 @@
 //         });
 //     });
 // });
+
+
+
+
+// PROMISES
+
+let promise = new Promise((resolve, reject) => {
+    console.log("I am a promise");
+    // resolve(123);
+    reject("some error occured");
+});
+
+function getData(dataId, getNextData) {
+    return new Promise()
+}
