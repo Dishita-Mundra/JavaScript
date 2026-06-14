@@ -118,19 +118,22 @@
 // let promise = getData(123);
 
 
-const getPromise = () => {
-    return new Promise((resolve, reject) => {
-        console.log("I am a promise");
-        // resolve("123"); 
-        reject("error");
-    });
-};
+// const getPromise = () => {
+//     return new Promise((resolve, reject) => {
+//         console.log("I am a promise");
+//         // resolve("123"); 
+//         reject("network error");
+//     });
+// };
 
-let promise = getPromise();
-promise.then(() => {
-    console.log("promise fulfilled");
-});
+// let promise = getPromise();
+// promise.then((res) => {
+//     console.log("promise fulfilled", res);
+// });
 
-promise.catch(() => {
-    console.log("rejected");
-});
+// promise.catch((err) => {
+//     console.log("rejected", err);
+// });
+
+
+
