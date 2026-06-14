@@ -71,12 +71,12 @@
 
 
 // function getData(dataId, getNextData) {
-//     setTimeout(() => {
-//         console.log("data", dataId);
-//         if (getNextData){
-//             getNextData();
-//         }
-//     }, 2000);
+    // setTimeout(() => {
+    //     console.log("data", dataId);
+    //     if (getNextData){
+    //         getNextData();
+    //     }
+    // }, 2000);
 // }
 
 // // callback hell
@@ -96,12 +96,19 @@
 
 // PROMISES
 
-let promise = new Promise((resolve, reject) => {
-    console.log("I am a promise");
-    // resolve(123);
-    reject("some error occured");
-});
+// let promise = new Promise((resolve, reject) => {
+//     console.log("I am a promise");
+//     // resolve(123);
+//     reject("some error occured");
+// });
 
 function getData(dataId, getNextData) {
-    return new Promise()
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+        console.log("data", dataId);
+        if (getNextData){
+            getNextData();
+        }
+    }, 2000);
+    })
 }
