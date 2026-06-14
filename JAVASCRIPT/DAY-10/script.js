@@ -119,13 +119,18 @@
 
 
 const getPromise = () => {
-    new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         console.log("I am a promise");
-        resolve("123"); 
+        // resolve("123"); 
+        reject("error");
     });
 };
 
 let promise = getPromise();
 promise.then(() => {
     console.log("promise fulfilled");
+});
+
+promise.catch(() => {
+    console.log("rejected");
 });
