@@ -166,3 +166,23 @@
 // p2.then((res) => {
 //     console.log(res);
 // });
+
+
+
+function getData(dataId, getNextData) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+        console.log("data", dataId);
+        resolve("success");
+        // reject("error");
+        if (getNextData){
+            getNextData();
+        }
+    }, 5000);
+    })
+}
+
+// PROMISE CHAIN
+getData(1).then((res) => {
+    console.log(res);
+});
