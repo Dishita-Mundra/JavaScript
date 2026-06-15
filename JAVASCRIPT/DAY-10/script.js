@@ -169,31 +169,33 @@
 
 
 
-function getData(dataId, getNextData) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log("data", dataId);
-            resolve("success");
-            // reject("error");
-            if (getNextData) {
-                getNextData();
-            }
-        }, 2000);
-    })
-}
+// function getData(dataId, getNextData) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("success");
+//             // reject("error");
+//             if (getNextData) {
+//                 getNextData();
+//             }
+//         }, 2000);
+//     })
+// }
 
 // PROMISE CHAIN
 
-console.log("getting data1 ....");
-getData(1)
-   .then((res) => {
-      console.log("getting data2 ....");
-      return getData(2);
-   })
-   .then((res) => {
-      console.log("getting data3 ....");
-      return getData(3);
-   })
-   .then((res) => {
-      console.log(res);
-   });
+// console.log("getting data1 ....");
+// getData(1)
+//    .then((res) => {
+//       console.log("getting data2 ....");
+//       return getData(2);
+//    })
+//    .then((res) => {
+//       console.log("getting data3 ....");
+//       return getData(3);
+//    })
+//    .then((res) => {
+//       console.log(res);
+//    });
+
+
