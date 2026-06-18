@@ -125,11 +125,11 @@ const updateExchangeRate = async () => {
     }
 };
 
-btn.addEventListener("click", (evt) => {
+btn.addEventListener ("click", (evt) => {
     evt.preventDefault();
     updateExchangeRate();
 });
 
-window.addEventListener("load", () => {
+window.addEventListener ("load", () => {
     updateExchangeRate();
 });
