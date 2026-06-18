@@ -1,15 +1,18 @@
-const URL = "https://jsonplaceholder.typicode.com/todos/1";
-const factPara = document.querySelector("#fact");
+const URL = "https://catfact.ninja/fact";
 
-let promise = fetch(URL);
-console.log(promise);
+const factPara = document.querySelector("#fact");
+const btn = document.querySelector("#btn");
 
 const getFacts = async () => {
-    console.log("getting data....");
+    console.log("getting data...");
+    
     let response = await fetch(URL);
-    console.log(response);   //JSON format
     let data = await response.json();
+
     console.log(data);
-}
+    factPara.innerText = data.fact;
+};
+
+btn.addEventListener("click", getFacts);
 
 console.log(getFacts());
