@@ -207,21 +207,27 @@
 // }
 
 
-// function api() {
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             console.log("weather data");
-//             resolve(200);
-//         }, 2000);
-//     });
-// }
+function api() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("weather data");
+            resolve(200);
+        }, 2000);
+    });
+}
 
 async function getAllData() {
+    console.log("getting data1....");
     await getAllData(1);
+    console.log("getting data2....");
     await getAllData(2);
+    console.log("getting data3....");
     await getAllData(3);
+    console.log("getting data4....");
     await getAllData(4);
+    console.log("getting data5....");
     await getAllData(5);
+    console.log("getting data6....");
     await getAllData(6);
 }
 
