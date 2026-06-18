@@ -216,6 +216,18 @@
 //     });
 // }
 
+async function getAllData() {
+    await getAllData(1);
+    await getAllData(2);
+    await getAllData(3);
+    await getAllData(4);
+    await getAllData(5);
+    await getAllData(6);
+}
+
+
+
+
 // async function getWeatherdata() {
 //     await api();  //1st
 //     await api();  //2nd
